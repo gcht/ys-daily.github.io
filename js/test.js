@@ -14,20 +14,20 @@ alert('这一段扩展脚本');
 		    alert('即将跳转到新增页面')
 		  })
 		
-			 viewModel.on('beforemyAction1',function(){
-		    alert('before即将跳转到新增页面')
+// 			 viewModel.on('beforemyAction1',function(){
+// 		    alert('before即将跳转到新增页面')
 				 
-				  viewModel.on('afteryAction1',function(){
-		    alert('after即将跳转到新增页面')
-		  })
+// 				  viewModel.on('afteryAction1',function(){
+// 		    alert('after即将跳转到新增页面')
+// 		  })
 		
-				 viewModel.on('beforeAddExecute',function(){
-		    alert('即将跳转到新增页面......beforeAddExecute')
-		  })
+// 				 viewModel.on('beforeAddExecute',function(){
+// 		    alert('即将跳转到新增页面......beforeAddExecute')
+// 		  })
 				 
-				 viewModel.on('beforeAdd',function(){
-		    alert('即将跳转到新增页面......beforeAdd')
-		  })
+// 				 viewModel.on('beforeAdd',function(){
+// 		    alert('即将跳转到新增页面......beforeAdd')
+// 		  })
 				
 		
 
