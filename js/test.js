@@ -10,9 +10,17 @@ cb.defineInner([], function () {
 		init: function (viewModel) {
 		  alert('这一段测试程序')
 
-		  viewModel.get('btn1').on('Click',function(){
+		  viewModel.get('btn1').on('click',function(){
 		    alert('即将跳转到新增页面')
 		  })
+		
+			 viewModel.get('btn2').on('beforemyAction1',function(){
+		    alert('before即将跳转到新增页面')
+				 
+				  viewModel.get('btn2').on('afteryAction1',function(){
+		    alert('after即将跳转到新增页面')
+		  })
+		
 
 		}
 	}
