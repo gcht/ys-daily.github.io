@@ -14,10 +14,10 @@ cb.defineInner([], function () {
 		    alert('即将跳转到新增页面')
 		  })
 		
-			 viewModel.get('btn2').on('beforemyAction1',function(){
+			 viewModel.on('beforemyAction1',function(){
 		    alert('before即将跳转到新增页面')
 				 
-				  viewModel.get('btn2').on('afteryAction1',function(){
+				  viewModel.on('afteryAction1',function(){
 		    alert('after即将跳转到新增页面')
 		  })
 		
