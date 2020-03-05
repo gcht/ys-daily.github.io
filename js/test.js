@@ -21,11 +21,11 @@ cb.defineInner([], function () {
 		    alert('after即将跳转到新增页面')
 		  })
 		
-				 viewModel.get('btnAdd').on('beforeAddExecute',function(){
+				 viewModel.on('beforeAddExecute',function(){
 		    alert('即将跳转到新增页面......beforeAddExecute')
 		  })
 				 
-				 viewModel.get('btnAdd').on('beforeAdd',function(){
+				 viewModel.on('beforeAdd',function(){
 		    alert('即将跳转到新增页面......beforeAdd')
 		  })
 				
