@@ -8,7 +8,7 @@ cb.defineInner([], function () {
 		},
 		//初始化整个扩展脚本
 		init: function (viewModel) {
-		  alert('这一段测试程序')
+		  alert('这一段扩展脚本'+ new Date().toString());
 
 		  viewModel.get('btn1').on('click',function(){
 		    alert('即将跳转到新增页面')
